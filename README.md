@@ -1,3 +1,23 @@
+## CSV Import-Export Functionality
+
+This project includes CSV import and export features that allow users to efficiently manage data using CSV files without any packages. With this functionality, users can easily upload CSV files to import data into the application or download CSV files to export data from the application.
+
+### Features:
+
+- **CSV Import:** Users can upload CSV files containing data records to import into the application. The application parses the CSV file and adds the data to the database, facilitating bulk data import. A custom function has been developed and will be available for developers to edit as soon as possible. When uploading large data sheets, don't worry about the PHP maximum memory limit.
+
+- **CSV Export:** Users can export data from the application to CSV files for offline analysis or sharing. The application generates CSV files containing the requested data, which users can download for their use. A custom function has been developed and will be available for developers to edit as soon as possible. When exporting large database records, don't worry about the PHP maximum memory limit.
+
+### Usage:
+
+To import data from a CSV file, navigate to the import page and follow the on-screen instructions to upload the CSV file. Similarly, to export data to a CSV file, navigate to the export page and select the desired data parameters to include in the exported CSV file.
+
+### Security:
+
+Our CSV import-export functionality is designed with security in mind. We employ measures to validate and sanitize user input during CSV file processing to prevent common security vulnerabilities such as SQL injection and cross-site scripting (XSS).
+
+###
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
