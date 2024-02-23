@@ -74,6 +74,9 @@ class EmployeeController extends Controller
 
     public function importCSV(Request $request)
     {
+        $request->validate([
+            'import_csv' => 'required|mimes:csv',
+        ]);
         //read csv file and skip data
         $file = $request->file('import_csv');
         $handle = fopen($file->path(), 'r');
